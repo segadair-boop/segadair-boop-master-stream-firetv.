@@ -19,3 +19,5 @@ Upstream: https://github.com/jellyfin/jellyfin-androidtv
 License: GPL-2.0. Preserve copyright notices and provide corresponding source when distributing modified versions.
 
 Build validation requested for Fire TV.
+
+Retry Android SDK build with corrected workflow.
