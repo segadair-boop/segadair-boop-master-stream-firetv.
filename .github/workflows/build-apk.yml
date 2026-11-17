@@ -35,8 +35,8 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Verify Android SDK
+        run: test -d "$ANDROID_HOME" && echo "Android SDK available at $ANDROID_HOME"
       - name: Customize app display name
         run: python3 custom/customizar.py jellyfin
       - name: Build debug APK
