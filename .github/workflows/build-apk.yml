@@ -5,6 +5,11 @@ on:
     paths:
       - '.github/workflows/build-apk.yml'
       - 'customizar.py'
+  pull_request:
+    paths:
+      - '.github/workflows/build-apk.yml'
+      - 'customizar.py'
+      - 'README.md'
 
 permissions:
   contents: read
